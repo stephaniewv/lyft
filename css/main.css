@@ -108,7 +108,7 @@
 
 .text2 a{
   text-decoration: none;
-  color: #ff00bf; 
+  color: #ff00bf;
 }
 
 /* Seccion 2 */
@@ -117,12 +117,12 @@
   color: white;
   padding-left: 180px;
   display: inline-block;
-  
+
 }
 
 .box-text h3{
   margin-top: 0px;
-  
+
 }
 
 .container2{
@@ -136,9 +136,65 @@
   width: 375px;
   margin-top: 20px;
   display: inline-block;
-   
+
 }
 
 .box-img{
   float: right;
+}
+/*seccion 3*/
+.container3{
+  vertical-align: baseline;
+  width: 100%;
+  height: 590px;
+}
+/*seccion 3*/
+.container4{
+  width: 100%;
+  height: 590px;
+}
+/*seccion 3*/
+.container5{
+  vertical-align: baseline;
+  width: 100%;
+  height: 590px;
+}
+/****** seccion 6 pie de pagina*****/
+.red-social {
+  background-color: #282b35;
+  width: 100%;
+  height: 100px;
+  padding-left: 200px;
+}
+.red-social .circulo{
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 100%;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  margin: 30px auto;
+
+}
+.red-social span{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 34px;
+  top: 5px;
+}
+.icon-facebook2{
+  padding-left: 30%;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: grey;
+  font-size: 12px;
+  color: white;
+}
+footer p{
+  font-size: 14px;
+  margin-bottom: 20px;
 }
