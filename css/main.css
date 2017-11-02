@@ -144,25 +144,84 @@
 }
 /*seccion 3*/
 .container3{
-  vertical-align: baseline;
+  position: static;
   width: 100%;
-  height: 590px;
+  height: 550px;
+}
+.parrafo1{
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  /*outline: 2px solid blue;*/
+  position: absolute;
+  margin: 20px 50px;
+  vertical-align: middle;
+
+}
+.parrafo1 h3{
+  text-transform: uppercase;
+
+}
+.film1{
+  position: absolute;
+  right: 0;
+  outline: 1px solid red;
 }
 /*seccion 3*/
 .container4{
+  position: static;
   width: 100%;
-  height: 590px;
+  height: 550px;
+}
+.parrafo2{
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  /*outline: 2px solid blue;*/
+  position: absolute;
+  right: 0;
+  margin: 20px 40px;
+}
+.parrafo2 h3{
+  text-transform: uppercase;
+}
+.film2{
+  position: static;
+  outline: 1px solid aqua;
 }
 /*seccion 3*/
 .container5{
-  vertical-align: baseline;
+  position: static;
   width: 100%;
-  height: 590px;
+  height: 550px;
+}
+.parrafo3{
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  /*outline: 2px solid blue;*/
+  position: absolute;
+  margin: 20px 50px;
+  vertical-align: middle;
+
+}
+.parrafo3 h3{
+  text-transform: uppercase;
+
+}
+.film3{
+  position: absolute;
+  right: 0;
+  outline: 1px solid red;
 }
 /****** seccion 6 pie de pagina*****/
+.container6{
+  width: 100%;
+}
 .red-social {
   background-color: #282b35;
   width: 100%;
+  background-size: cover;
   height: 100px;
   padding-left: 200px;
 }
